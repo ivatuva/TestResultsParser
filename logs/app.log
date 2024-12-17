@@ -1,0 +1,719 @@
+2024-12-15 09:16:30,575 - __main__ - INFO - Logging is set up.
+2024-12-15 09:26:27,924 - __main__ - INFO - Logging is set up.
+2024-12-15 09:26:27,925 - __main__ - ERROR - An error occurred: The file at /Users/vatuvili/Documents/Local/TestResultsParser/input/TestProject.xml does not exist.
+2024-12-15 09:26:33,575 - __main__ - INFO - Logging is set up.
+2024-12-15 09:26:33,583 - __main__ - INFO - File read successfully.
+2024-12-15 09:31:49,451 - __main__ - INFO - Logging is set up.
+2024-12-15 09:31:49,452 - __main__ - INFO - File read successfully.
+2024-12-15 10:01:51,033 - __main__ - INFO - Logging is set up.
+2024-12-15 10:01:51,039 - __main__ - INFO - File read successfully.
+2024-12-15 10:01:51,040 - utils.error_handler - ERROR - An error occurred: XML or text declaration not at start of entity: line 1, column 2
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 40, in main
+    parsed_data = parser.parse(file_content, tech)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/parsing/parser.py", line 16, in parse
+    return parser.parse(xml_content)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/parsing/nunit/nunit_parser.py", line 8, in parse
+    root = ET.fromstring(xml_content)
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/xml/etree/ElementTree.py", line 1342, in XML
+    parser.feed(text)
+    ~~~~~~~~~~~^^^^^^
+xml.etree.ElementTree.ParseError: XML or text declaration not at start of entity: line 1, column 2
+2024-12-15 10:01:51,042 - __main__ - ERROR - An error occurred: XML or text declaration not at start of entity: line 1, column 2
+2024-12-15 10:03:18,948 - __main__ - INFO - Logging is set up.
+2024-12-15 10:03:18,949 - __main__ - INFO - File read successfully.
+2024-12-15 10:03:18,949 - utils.error_handler - ERROR - An error occurred: XML or text declaration not at start of entity: line 1, column 2
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 40, in main
+    parsed_data = parser.parse(file_content, tech)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/parsing/parser.py", line 16, in parse
+    return parser.parse(xml_content)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/parsing/nunit/nunit_parser.py", line 8, in parse
+    root = ET.fromstring(xml_content)
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/xml/etree/ElementTree.py", line 1342, in XML
+    parser.feed(text)
+    ~~~~~~~~~~~^^^^^^
+xml.etree.ElementTree.ParseError: XML or text declaration not at start of entity: line 1, column 2
+2024-12-15 10:03:18,952 - __main__ - ERROR - An error occurred: XML or text declaration not at start of entity: line 1, column 2
+2024-12-15 10:04:01,031 - __main__ - INFO - Logging is set up.
+2024-12-15 10:04:01,032 - __main__ - INFO - File read successfully.
+2024-12-15 10:04:01,032 - utils.error_handler - ERROR - An error occurred: XML or text declaration not at start of entity: line 1, column 2
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 40, in main
+    parsed_data = parser.parse(file_content, tech)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/parsing/parser.py", line 16, in parse
+    return parser.parse(xml_content)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/parsing/nunit/nunit_parser.py", line 8, in parse
+    root = ET.fromstring(xml_content)
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/xml/etree/ElementTree.py", line 1342, in XML
+    parser.feed(text)
+    ~~~~~~~~~~~^^^^^^
+xml.etree.ElementTree.ParseError: XML or text declaration not at start of entity: line 1, column 2
+2024-12-15 10:04:01,034 - __main__ - ERROR - An error occurred: XML or text declaration not at start of entity: line 1, column 2
+2024-12-15 10:04:32,601 - __main__ - INFO - Logging is set up.
+2024-12-15 10:04:32,601 - __main__ - INFO - File read successfully.
+2024-12-15 10:04:32,602 - utils.error_handler - ERROR - An error occurred: XML or text declaration not at start of entity: line 1, column 2
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 40, in main
+    parsed_data = parser.parse(file_content, tech)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/parsing/parser.py", line 16, in parse
+    return parser.parse(xml_content)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/parsing/nunit/nunit_parser.py", line 9, in parse
+    root = ET.fromstring(xml_content)
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/xml/etree/ElementTree.py", line 1342, in XML
+    parser.feed(text)
+    ~~~~~~~~~~~^^^^^^
+xml.etree.ElementTree.ParseError: XML or text declaration not at start of entity: line 1, column 2
+2024-12-15 10:04:32,604 - __main__ - ERROR - An error occurred: XML or text declaration not at start of entity: line 1, column 2
+2024-12-15 10:07:54,740 - __main__ - INFO - Logging is set up.
+2024-12-15 10:07:54,741 - __main__ - INFO - File read successfully.
+2024-12-15 10:07:54,741 - utils.error_handler - ERROR - An error occurred: XML or text declaration not at start of entity: line 1, column 2
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 40, in main
+    parsed_data = parser.parse(file_content, tech)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/parsing/parser.py", line 16, in parse
+    return parser.parse(xml_content)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/parsing/nunit/nunit_parser.py", line 9, in parse
+    root = ET.fromstring(xml_content)
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/xml/etree/ElementTree.py", line 1342, in XML
+    parser.feed(text)
+    ~~~~~~~~~~~^^^^^^
+xml.etree.ElementTree.ParseError: XML or text declaration not at start of entity: line 1, column 2
+2024-12-15 10:07:54,745 - __main__ - ERROR - An error occurred: XML or text declaration not at start of entity: line 1, column 2
+2024-12-15 10:10:01,457 - __main__ - INFO - Logging is set up.
+2024-12-15 10:10:01,458 - __main__ - INFO - File read successfully.
+2024-12-15 10:10:01,459 - __main__ - INFO - File parsed successfully.
+2024-12-15 11:59:02,464 - __main__ - INFO - Logging is set up.
+2024-12-15 11:59:02,471 - __main__ - INFO - File read successfully.
+2024-12-15 11:59:02,473 - __main__ - INFO - File parsed successfully.
+2024-12-15 11:59:02,473 - __main__ - INFO - Data transformed successfully.
+2024-12-15 15:00:12,269 - __main__ - INFO - Logging is set up.
+2024-12-15 15:00:12,277 - __main__ - INFO - File read successfully.
+2024-12-15 15:00:12,278 - __main__ - INFO - File parsed successfully.
+2024-12-15 15:00:12,278 - __main__ - INFO - Data transformed successfully.
+2024-12-15 15:00:12,944 - utils.error_handler - ERROR - An error occurred: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 46, in main
+    dao.save(transformed_data)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/database/dao.py", line 12, in save
+    collection.insert_one(data)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/collection.py", line 885, in insert_one
+    common.validate_is_document_type("document", document)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/common.py", line 551, in validate_is_document_type
+    raise TypeError(
+    ...<4 lines>...
+    )
+TypeError: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2024-12-15 15:00:12,979 - __main__ - ERROR - An error occurred: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2024-12-15 15:07:04,786 - __main__ - INFO - Logging is set up.
+2024-12-15 15:07:04,787 - __main__ - INFO - File read successfully.
+2024-12-15 15:07:04,788 - __main__ - INFO - File parsed successfully.
+2024-12-15 15:07:04,788 - __main__ - INFO - Data transformed successfully.
+2024-12-15 15:07:05,835 - utils.error_handler - ERROR - An error occurred: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 46, in main
+    dao.save(transformed_data.to_dict())
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/database/dao.py", line 12, in save
+    collection.insert_one(data)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/collection.py", line 891, in insert_one
+    self._insert_one(
+    ~~~~~~~~~~~~~~~~^
+        document,
+        ^^^^^^^^^
+    ...<5 lines>...
+        comment=comment,
+        ^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        acknowledged, _insert_command, session, operation=_Op.INSERT
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1898, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1784, in _retry_with_session
+    return self._retry_internal(
+           ~~~~~~~~~~~~~~~~~~~~^
+        func=func,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1830, in _retry_internal
+    ).run()
+      ~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2554, in run
+    return self._read() if self._is_read else self._write()
+                                              ~~~~~~~~~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2663, in _write
+    with self._client._checkout(self._server, self._session) as conn:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1593, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/pool.py", line 1336, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/pool.py", line 1495, in _get_conn
+    conn = self.connect(handler=handler)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/pool.py", line 1296, in connect
+    conn.authenticate()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/pool.py", line 648, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/auth.py", line 452, in authenticate
+    auth_func(credentials, conn)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/auth.py", line 356, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-1")
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/auth.py", line 134, in _authenticate_scram
+    res = conn.command(source, cmd)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/helpers.py", line 45, in inner
+    return func(*args, **kwargs)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/pool.py", line 538, in command
+    return command(
+        self,
+    ...<20 lines>...
+        write_concern=write_concern,
+    )
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/network.py", line 218, in command
+    helpers_shared._check_command_response(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        response_doc,
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        parse_write_concern_error=parse_write_concern_error,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/helpers_shared.py", line 247, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2024-12-15 15:07:05,920 - __main__ - ERROR - An error occurred: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2024-12-15 15:11:45,136 - __main__ - INFO - Logging is set up.
+2024-12-15 15:11:45,142 - __main__ - INFO - File read successfully.
+2024-12-15 15:11:45,142 - __main__ - INFO - File parsed successfully.
+2024-12-15 15:11:45,143 - __main__ - INFO - Data transformed successfully.
+2024-12-15 15:11:46,442 - utils.error_handler - ERROR - An error occurred: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 46, in main
+    dao.save(transformed_data.to_dict())
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/database/dao.py", line 12, in save
+    collection.insert_one(data)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/collection.py", line 891, in insert_one
+    self._insert_one(
+    ~~~~~~~~~~~~~~~~^
+        document,
+        ^^^^^^^^^
+    ...<5 lines>...
+        comment=comment,
+        ^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        acknowledged, _insert_command, session, operation=_Op.INSERT
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1898, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1784, in _retry_with_session
+    return self._retry_internal(
+           ~~~~~~~~~~~~~~~~~~~~^
+        func=func,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1830, in _retry_internal
+    ).run()
+      ~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2554, in run
+    return self._read() if self._is_read else self._write()
+                                              ~~~~~~~~~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 2663, in _write
+    with self._client._checkout(self._server, self._session) as conn:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/mongo_client.py", line 1593, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/pool.py", line 1336, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/pool.py", line 1495, in _get_conn
+    conn = self.connect(handler=handler)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/pool.py", line 1296, in connect
+    conn.authenticate()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/pool.py", line 648, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/auth.py", line 452, in authenticate
+    auth_func(credentials, conn)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/auth.py", line 356, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-1")
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/auth.py", line 134, in _authenticate_scram
+    res = conn.command(source, cmd)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/helpers.py", line 45, in inner
+    return func(*args, **kwargs)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/pool.py", line 538, in command
+    return command(
+        self,
+    ...<20 lines>...
+        write_concern=write_concern,
+    )
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/synchronous/network.py", line 218, in command
+    helpers_shared._check_command_response(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        response_doc,
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        parse_write_concern_error=parse_write_concern_error,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/.venv/lib/python3.13/site-packages/pymongo/helpers_shared.py", line 247, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2024-12-15 15:11:46,469 - __main__ - ERROR - An error occurred: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2024-12-15 15:13:13,785 - __main__ - INFO - Logging is set up.
+2024-12-15 15:13:13,786 - __main__ - INFO - File read successfully.
+2024-12-15 15:13:13,786 - __main__ - INFO - File parsed successfully.
+2024-12-15 15:13:13,787 - __main__ - INFO - Data transformed successfully.
+2024-12-15 15:13:14,871 - __main__ - INFO - Data saved to MongoDB successfully.
+2024-12-15 15:21:15,126 - __main__ - INFO - Logging is set up.
+2024-12-15 15:21:15,131 - __main__ - INFO - File read successfully.
+2024-12-15 15:21:15,132 - __main__ - INFO - File parsed successfully.
+2024-12-15 15:21:15,133 - __main__ - INFO - Data transformed successfully.
+2024-12-15 15:21:16,478 - __main__ - INFO - Data saved to MongoDB successfully.
+2024-12-15 15:50:55,594 - __main__ - INFO - Logging is set up.
+2024-12-15 15:50:55,595 - __main__ - INFO - File read successfully.
+2024-12-15 15:50:55,596 - __main__ - INFO - File parsed successfully.
+2024-12-15 15:50:55,597 - __main__ - INFO - Data transformed successfully.
+2024-12-15 15:50:56,799 - __main__ - INFO - Data saved to MongoDB successfully.
+2024-12-15 15:53:53,865 - __main__ - INFO - Logging is set up.
+2024-12-15 15:53:53,871 - __main__ - INFO - File read successfully.
+2024-12-15 15:53:53,871 - __main__ - INFO - File parsed successfully.
+2024-12-15 15:53:53,872 - __main__ - INFO - Data transformed successfully.
+2024-12-15 15:53:55,260 - __main__ - INFO - Data saved to MongoDB successfully.
+2024-12-15 15:58:03,863 - __main__ - INFO - Logging is set up.
+2024-12-15 15:58:03,864 - __main__ - INFO - File read successfully.
+2024-12-15 15:58:03,865 - __main__ - INFO - File parsed successfully.
+2024-12-15 15:58:03,865 - __main__ - INFO - Data transformed successfully.
+2024-12-15 15:58:04,888 - __main__ - INFO - Data saved to MongoDB successfully.
+2024-12-15 16:24:14,070 - __main__ - INFO - Logging is set up.
+2024-12-15 16:24:14,077 - __main__ - INFO - File read successfully.
+2024-12-15 16:24:14,078 - __main__ - INFO - File parsed successfully.
+2024-12-15 16:24:14,078 - __main__ - INFO - Data transformed successfully.
+2024-12-15 16:24:14,912 - utils.error_handler - ERROR - An error occurred: 'list' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 46, in main
+    dao.save(transformed_data.to_dict())
+             ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/transformation/test_run_model.py", line 37, in to_dict
+    "test_suites": [suite.to_dict() for suite in self.test_suites]
+                    ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'to_dict'
+2024-12-15 16:24:14,922 - __main__ - ERROR - An error occurred: 'list' object has no attribute 'to_dict'
+2024-12-15 16:27:26,013 - __main__ - INFO - Logging is set up.
+2024-12-15 16:27:26,014 - __main__ - INFO - File read successfully.
+2024-12-15 16:27:26,015 - __main__ - INFO - File parsed successfully.
+2024-12-15 16:27:26,015 - __main__ - INFO - Data transformed successfully.
+2024-12-15 16:27:26,526 - utils.error_handler - ERROR - An error occurred: 'list' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 46, in main
+    dao.save(transformed_data.to_dict())
+             ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/transformation/test_run_model.py", line 37, in to_dict
+    "test_suites": [suite.to_dict() for suite in self.test_suites]
+                    ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'to_dict'
+2024-12-15 16:27:26,528 - __main__ - ERROR - An error occurred: 'list' object has no attribute 'to_dict'
+2024-12-15 16:28:46,773 - __main__ - INFO - Logging is set up.
+2024-12-15 16:28:46,774 - __main__ - INFO - File read successfully.
+2024-12-15 16:28:46,775 - __main__ - INFO - File parsed successfully.
+2024-12-15 16:28:46,775 - __main__ - INFO - Data transformed successfully.
+2024-12-15 16:28:47,208 - utils.error_handler - ERROR - An error occurred: 'list' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 46, in main
+    dao.save(transformed_data.to_dict())
+             ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/transformation/test_run_model.py", line 37, in to_dict
+    "test_suites": [suite.to_dict() for suite in self.test_suites]
+                    ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'to_dict'
+2024-12-15 16:28:47,210 - __main__ - ERROR - An error occurred: 'list' object has no attribute 'to_dict'
+2024-12-15 16:30:15,890 - __main__ - INFO - Logging is set up.
+2024-12-15 16:30:15,891 - __main__ - INFO - File read successfully.
+2024-12-15 16:30:15,892 - __main__ - INFO - File parsed successfully.
+2024-12-15 16:30:15,892 - utils.error_handler - ERROR - An error occurred: 'list' object has no attribute 'name'
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 40, in main
+    transformed_data = transformer.transform(parsed_data, tech)
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/transformation/transformer.py", line 17, in transform
+    return parser.transform(parsed_data)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/transformation/nunit/nunit_transformer.py", line 10, in transform
+    print(test_suites[0].name)
+          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'name'
+2024-12-15 16:30:15,900 - __main__ - ERROR - An error occurred: 'list' object has no attribute 'name'
+2024-12-15 16:34:33,802 - __main__ - INFO - Logging is set up.
+2024-12-15 16:34:33,802 - __main__ - INFO - File read successfully.
+2024-12-15 16:34:33,803 - __main__ - INFO - File parsed successfully.
+2024-12-15 16:34:33,803 - __main__ - INFO - Data transformed successfully.
+2024-12-15 16:34:34,298 - utils.error_handler - ERROR - An error occurred: 'list' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 46, in main
+    dao.save(transformed_data.to_dict())
+             ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/transformation/test_run_model.py", line 37, in to_dict
+    "test_suites": [suite.to_dict() for suite in self.test_suites]
+                    ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'to_dict'
+2024-12-15 16:34:34,300 - __main__ - ERROR - An error occurred: 'list' object has no attribute 'to_dict'
+2024-12-15 16:42:06,884 - __main__ - INFO - Logging is set up.
+2024-12-15 16:42:06,885 - __main__ - INFO - File read successfully.
+2024-12-15 16:42:06,886 - __main__ - INFO - File parsed successfully.
+2024-12-15 16:42:06,886 - __main__ - INFO - Data transformed successfully.
+2024-12-15 16:42:07,301 - utils.error_handler - ERROR - An error occurred: 'list' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/main.py", line 46, in main
+    dao.save(transformed_data.to_dict())
+             ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vatuvili/Documents/Local/TestResultsParser/transformation/test_run_model.py", line 37, in to_dict
+    "test_suites": [suite.to_dict() for suite in self.test_suites]
+                    ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'to_dict'
+2024-12-15 16:42:07,303 - __main__ - ERROR - An error occurred: 'list' object has no attribute 'to_dict'
+2024-12-15 16:42:51,405 - __main__ - INFO - Logging is set up.
+2024-12-15 16:42:51,406 - __main__ - INFO - File read successfully.
+2024-12-15 16:42:51,407 - __main__ - INFO - File parsed successfully.
+2024-12-15 16:42:51,407 - __main__ - INFO - Data transformed successfully.
+2024-12-15 16:42:52,333 - __main__ - INFO - Data saved to MongoDB successfully.
+2024-12-17 17:31:43,566 - __main__ - INFO - Logging is set up.
+2024-12-17 17:31:43,575 - __main__ - INFO - File read successfully.
+2024-12-17 17:31:43,576 - __main__ - INFO - File parsed successfully.
+2024-12-17 17:31:43,576 - __main__ - INFO - Data transformed successfully.
+2024-12-17 17:31:45,451 - __main__ - INFO - Data saved to MongoDB successfully.
+2024-12-17 17:52:57,466 - __main__ - INFO - Logging is set up.
+2024-12-17 17:52:57,467 - utils.error_handler - ERROR - An error occurred: The file at C:\Users\ilidiovatuva\source\repos\TestResultsParser\TestResultsParser\input\TestProject1.xml does not exist.
+Traceback (most recent call last):
+  File "C:\Users\ilidiovatuva\source\repos\TestResultsParser\main.py", line 30, in main
+    file_content = file_reader.read_file()
+  File "C:\Users\ilidiovatuva\source\repos\TestResultsParser\ingestion\file_reader.py", line 11, in read_file
+    raise FileNotFoundError(f"The file at {self.file_path} does not exist.")
+FileNotFoundError: The file at C:\Users\ilidiovatuva\source\repos\TestResultsParser\TestResultsParser\input\TestProject1.xml does not exist.
+2024-12-17 17:52:57,477 - __main__ - ERROR - An error occurred: The file at C:\Users\ilidiovatuva\source\repos\TestResultsParser\TestResultsParser\input\TestProject1.xml does not exist.
+2024-12-17 17:53:31,060 - __main__ - INFO - Logging is set up.
+2024-12-17 17:53:31,061 - __main__ - INFO - File read successfully.
+2024-12-17 17:53:31,063 - __main__ - INFO - File parsed successfully.
+2024-12-17 17:53:31,064 - __main__ - INFO - Data transformed successfully.
+2024-12-17 17:54:01,480 - utils.error_handler - ERROR - An error occurred: clocalhost:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6761ac8b45d41ebf77116b6d, topology_type: Unknown, servers: [<ServerDescription ('clocalhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('clocalhost:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\ilidiovatuva\source\repos\TestResultsParser\main.py", line 46, in main
+    dao.save(transformed_data.to_dict())
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilidiovatuva\source\repos\TestResultsParser\database\dao.py", line 12, in save
+    collection.insert_one(data)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+    ~~~~~~~~~~~~~~~~^
+        document,
+        ^^^^^^^^^
+    ...<5 lines>...
+        comment=comment,
+        ^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        acknowledged, _insert_command, session, operation=_Op.INSERT
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1898, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1784, in _retry_with_session
+    return self._retry_internal(
+           ~~~~~~~~~~~~~~~~~~~~^
+        func=func,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1830, in _retry_internal
+    ).run()
+      ~~~^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 2554, in run
+    return self._read() if self._is_read else self._write()
+                                              ~~~~~~~~~~~^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 2662, in _write
+    self._server = self._get_server()
+                   ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 2645, in _get_server
+    return self._client._select_server(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._server_selector,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=self._operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1649, in _select_server
+    server = topology.select_server(
+        server_selector,
+    ...<2 lines>...
+        operation_id=operation_id,
+    )
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\topology.py", line 398, in select_server
+    server = self._select_server(
+        selector,
+    ...<4 lines>...
+        operation_id=operation_id,
+    )
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\topology.py", line 376, in _select_server
+    servers = self.select_servers(
+        selector, operation, server_selection_timeout, address, operation_id
+    )
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\topology.py", line 283, in select_servers
+    server_descriptions = self._select_servers_loop(
+        selector, server_timeout, operation, operation_id, address
+    )
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\topology.py", line 333, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+        f"{self._error_message(selector)}, Timeout: {timeout}s, Topology Description: {self.description!r}"
+    )
+pymongo.errors.ServerSelectionTimeoutError: clocalhost:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6761ac8b45d41ebf77116b6d, topology_type: Unknown, servers: [<ServerDescription ('clocalhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('clocalhost:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-17 17:54:01,548 - __main__ - ERROR - An error occurred: clocalhost:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6761ac8b45d41ebf77116b6d, topology_type: Unknown, servers: [<ServerDescription ('clocalhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('clocalhost:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-17 17:54:38,382 - __main__ - INFO - Logging is set up.
+2024-12-17 17:54:38,383 - __main__ - INFO - File read successfully.
+2024-12-17 17:54:38,384 - __main__ - INFO - File parsed successfully.
+2024-12-17 17:54:38,384 - __main__ - INFO - Data transformed successfully.
+2024-12-17 17:54:38,480 - utils.error_handler - ERROR - An error occurred: Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}
+Traceback (most recent call last):
+  File "C:\Users\ilidiovatuva\source\repos\TestResultsParser\main.py", line 46, in main
+    dao.save(transformed_data.to_dict())
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilidiovatuva\source\repos\TestResultsParser\database\dao.py", line 12, in save
+    collection.insert_one(data)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+    ~~~~~~~~~~~~~~~~^
+        document,
+        ^^^^^^^^^
+    ...<5 lines>...
+        comment=comment,
+        ^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        acknowledged, _insert_command, session, operation=_Op.INSERT
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1898, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1784, in _retry_with_session
+    return self._retry_internal(
+           ~~~~~~~~~~~~~~~~~~~~^
+        func=func,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1830, in _retry_internal
+    ).run()
+      ~~~^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 2554, in run
+    return self._read() if self._is_read else self._write()
+                                              ~~~~~~~~~~~^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 2663, in _write
+    with self._client._checkout(self._server, self._session) as conn:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1593, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.496.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\pool.py", line 1336, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\pool.py", line 1495, in _get_conn
+    conn = self.connect(handler=handler)
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\pool.py", line 1296, in connect
+    conn.authenticate()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\pool.py", line 648, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\auth.py", line 452, in authenticate
+    auth_func(credentials, conn)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\auth.py", line 356, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-1")
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\auth.py", line 95, in _authenticate_scram
+    res = conn.command(source, cmd)
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\helpers.py", line 45, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\pool.py", line 538, in command
+    return command(
+        self,
+    ...<20 lines>...
+        write_concern=write_concern,
+    )
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\network.py", line 218, in command
+    helpers_shared._check_command_response(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        response_doc,
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        parse_write_concern_error=parse_write_concern_error,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\helpers_shared.py", line 247, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}
+2024-12-17 17:54:38,566 - __main__ - ERROR - An error occurred: Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}
+2024-12-17 18:10:33,462 - __main__ - INFO - Logging is set up.
+2024-12-17 18:10:33,463 - __main__ - INFO - File read successfully.
+2024-12-17 18:10:33,464 - __main__ - INFO - File parsed successfully.
+2024-12-17 18:10:33,465 - __main__ - INFO - Data transformed successfully.
+2024-12-17 18:11:03,919 - utils.error_handler - ERROR - An error occurred: mongo-server:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6761b0894b3b51f409a0871e, topology_type: Unknown, servers: [<ServerDescription ('mongo-server', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongo-server:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "C:\Users\ilidiovatuva\source\repos\TestResultsParser\main.py", line 46, in main
+    dao.save(transformed_data.to_dict())
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilidiovatuva\source\repos\TestResultsParser\database\dao.py", line 12, in save
+    collection.insert_one(data)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\collection.py", line 891, in insert_one
+    self._insert_one(
+    ~~~~~~~~~~~~~~~~^
+        document,
+        ^^^^^^^^^
+    ...<5 lines>...
+        comment=comment,
+        ^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\collection.py", line 831, in _insert_one
+    self._database.client._retryable_write(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        acknowledged, _insert_command, session, operation=_Op.INSERT
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1898, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1784, in _retry_with_session
+    return self._retry_internal(
+           ~~~~~~~~~~~~~~~~~~~~^
+        func=func,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1830, in _retry_internal
+    ).run()
+      ~~~^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 2554, in run
+    return self._read() if self._is_read else self._write()
+                                              ~~~~~~~~~~~^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 2662, in _write
+    self._server = self._get_server()
+                   ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 2645, in _get_server
+    return self._client._select_server(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._server_selector,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        operation_id=self._operation_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\mongo_client.py", line 1649, in _select_server
+    server = topology.select_server(
+        server_selector,
+    ...<2 lines>...
+        operation_id=operation_id,
+    )
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\topology.py", line 398, in select_server
+    server = self._select_server(
+        selector,
+    ...<4 lines>...
+        operation_id=operation_id,
+    )
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\topology.py", line 376, in _select_server
+    servers = self.select_servers(
+        selector, operation, server_selection_timeout, address, operation_id
+    )
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\topology.py", line 283, in select_servers
+    server_descriptions = self._select_servers_loop(
+        selector, server_timeout, operation, operation_id, address
+    )
+  File "C:\Users\ilidiovatuva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pymongo\synchronous\topology.py", line 333, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+        f"{self._error_message(selector)}, Timeout: {timeout}s, Topology Description: {self.description!r}"
+    )
+pymongo.errors.ServerSelectionTimeoutError: mongo-server:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6761b0894b3b51f409a0871e, topology_type: Unknown, servers: [<ServerDescription ('mongo-server', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongo-server:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-12-17 18:11:03,930 - __main__ - ERROR - An error occurred: mongo-server:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6761b0894b3b51f409a0871e, topology_type: Unknown, servers: [<ServerDescription ('mongo-server', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongo-server:27017: [Errno 11001] getaddrinfo failed (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>

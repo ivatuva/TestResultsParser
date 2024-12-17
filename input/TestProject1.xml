@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="TestProject1.dll" fullname="C:\Users\username\source\repos\TestProject1\TestProject1\bin\Debug\net8.0\TestProject1.dll" runstate="Runnable" testcasecount="4" result="Failed" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.15.4.0" clr-version="8.0.11" start-time="2024-12-03 16:57:37Z" end-time="2024-12-03 16:57:37Z" duration="0.107297">
+	<command-line>
+		<![CDATA[C:\Users\username\source\repos\TestProject1\TestProject1\bin\Debug\net8.0\testhost.dll --port 50767 --endpoint 127.0.0.1:050767 --role client --parentprocessid 16984 --telemetryoptedin true]]>
+	</command-line>
+	<filter>
+		<or>
+			<test>
+				TestProject1.TestsA.Test1
+			</test>
+			<test>
+				TestProject1.TestsA.Test2
+			</test>
+			<test>
+				TestProject1.TestsB.Test3
+			</test>
+			<test>
+				TestProject1.TestsB.Test4
+			</test>
+		</or>
+	</filter>
+	<test-suite type="Assembly" id="0-1006" name="TestProject1.dll" fullname="C:/Users/username/source/repos/TestProject1/TestProject1/bin/Debug/net8.0/TestProject1.dll" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2024-12-03T16:57:37.2207630Z" end-time="2024-12-03T16:57:37.2998767Z" duration="0.079057" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+		<environment framework-version="3.14.0.0" clr-version="8.0.11" os-version="Microsoft Windows 10.0.22631" platform="Win32NT" cwd="C:\Users\username\source\repos\TestProject1\TestProject1\bin\Debug\net8.0" machine-name="BS406-LAP" user="username" user-domain="WYGROUP" culture="pt-PT" uiculture="en-US" os-architecture="x64" />
+		<settings>
+			<setting name="SynchronousEvents" value="False" />
+			<setting name="InternalTraceLevel" value="Off" />
+			<setting name="RandomSeed" value="2094287385" />
+			<setting name="SkipNonTestAssemblies" value="True" />
+			<setting name="ProcessModel" value="InProcess" />
+			<setting name="DomainUsage" value="Single" />
+			<setting name="DefaultTestNamePattern" value="{m}{a}" />
+			<setting name="WorkDirectory" value="C:\Users\username\source\repos\TestProject1\TestProject1\bin\Debug\net8.0" />
+			<setting name="NumberOfTestWorkers" value="12" />
+		</settings>
+		<properties>
+			<property name="_PID" value="25084" />
+			<property name="_APPDOMAIN" value="testhost" />
+		</properties>
+		<failure>
+			<message>
+				<![CDATA[One or more child tests had errors]]>
+			</message>
+		</failure>
+		<test-suite type="TestSuite" id="0-1007" name="TestProject1" fullname="TestProject1" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2024-12-03T16:57:37.2272096Z" end-time="2024-12-03T16:57:37.2997533Z" duration="0.072543" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+			<failure>
+				<message>
+					<![CDATA[One or more child tests had errors]]>
+				</message>
+			</failure>
+			<test-suite type="TestFixture" id="0-1000" name="TestsA" fullname="TestProject1.TestsA" classname="TestProject1.TestsA" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2024-12-03T16:57:37.2306179Z" end-time="2024-12-03T16:57:37.2955649Z" duration="0.064946" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+				<failure>
+					<message>
+						<![CDATA[One or more child tests had errors]]>
+					</message>
+				</failure>
+				<test-case id="0-1001" name="Test1" fullname="TestProject1.TestsA.Test1" methodname="Test1" classname="TestProject1.TestsA" runstate="Runnable" seed="271832034" result="Passed" start-time="2024-12-03T16:57:37.2347200Z" end-time="2024-12-03T16:57:37.2795608Z" duration="0.044938" asserts="0">
+					<properties>
+						<property name="Description" value="Test1" />
+					</properties>
+				</test-case>
+				<test-case id="0-1002" name="Test2" fullname="TestProject1.TestsA.Test2" methodname="Test2" classname="TestProject1.TestsA" runstate="Runnable" seed="654702940" result="Failed" start-time="2024-12-03T16:57:37.2823364Z" end-time="2024-12-03T16:57:37.2935012Z" duration="0.011165" asserts="0">
+					<properties>
+						<property name="Description" value="Test2" />
+					</properties>
+					<failure>
+						<stack-trace>
+							<![CDATA[   at TestProject1.TestsA.Test2() in C:\Users\username\source\repos\TestProject1\TestProject1\SuiteA.cs:line 18   ]]>
+						</stack-trace>
+					</failure>
+					<assertions>
+						<assertion result="Failed">
+							<message>
+								<![CDATA[]]>
+							</message>
+							<stack-trace>
+								<![CDATA[   at TestProject1.TestsA.Test2() in C:\Users\username\source\repos\TestProject1\TestProject1\SuiteA.cs:line 18   ]]>
+							</stack-trace>
+						</assertion>
+					</assertions>
+				</test-case>
+			</test-suite>
+			<test-suite type="TestFixture" id="0-1003" name="TestsB" fullname="TestProject1.TestsB" classname="TestProject1.TestsB" runstate="Runnable" testcasecount="2" result="Passed" start-time="2024-12-03T16:57:37.2975502Z" end-time="2024-12-03T16:57:37.2997012Z" duration="0.002151" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+				<test-case id="0-1004" name="Test3" fullname="TestProject1.TestsB.Test3" methodname="Test3" classname="TestProject1.TestsB" runstate="Runnable" seed="1313032193" result="Passed" start-time="2024-12-03T16:57:37.2981465Z" end-time="2024-12-03T16:57:37.2985712Z" duration="0.000425" asserts="0">
+					<properties>
+						<property name="Description" value="Test3" />
+					</properties>
+				</test-case>
+				<test-case id="0-1005" name="Test4" fullname="TestProject1.TestsB.Test4" methodname="Test4" classname="TestProject1.TestsB" runstate="Runnable" seed="637694224" result="Passed" start-time="2024-12-03T16:57:37.2991745Z" end-time="2024-12-03T16:57:37.2995367Z" duration="0.000362" asserts="0">
+					<properties>
+						<property name="Description" value="Test4" />
+					</properties>
+				</test-case>
+			</test-suite>
+		</test-suite>
+	</test-suite>
+</test-run>
