@@ -2,12 +2,13 @@ from typing import Any
 from utils import Tech
 from .nunit import NunitTransformer
 from .test_run_model import TestRun
+from .junit import JunitTransformer
 
 class Transformer:
     def __init__(self):
         self.transformers = {
             Tech.NUNIT.value: NunitTransformer(),
-            # Add other transformers here as they are implemented
+            Tech.JUNIT.value: JunitTransformer(),
         }
 
     def transform(self, parsed_data: Any, tech: str) -> TestRun:

@@ -1,12 +1,11 @@
 from typing import Any, List, Optional, Union
 from transformation import TestRun, TestSuite, TestCase
 from parsing import NunitTestRun, Failure, NUnitTestCase, NUnitTestSuite
-import pprint
+import pprint, datetime
 
 class NunitTransformer:
 
     def transform(self, test_run: 'NunitTestRun') -> TestRun:
-      #  test_suites = [self._transform_test_suite(suite) for suite in test_run.test_suites if not suite.test_suites]
         test_suites = [self.process_leaf_suites(suite) for suite in test_run.test_suites]
         processed_suites = self.flatten(test_suites)
 
@@ -21,9 +20,9 @@ class NunitTransformer:
             warnings=test_run.warnings,
             inconclusive=test_run.inconclusive,
             skipped=test_run.skipped,
-            start_time=test_run.start_time,
-            end_time=test_run.end_time,
-            duration=test_run.duration,
+            start_time=datetime.datetime.strptime(test_run.start_time[:-1], "%Y-%m-%d %H:%M:%S"),
+            end_time=datetime.datetime.strptime(test_run.end_time[:-1], "%Y-%m-%d %H:%M:%S"),
+            duration=float(test_run.duration),
             test_suites=processed_suites
         )
         

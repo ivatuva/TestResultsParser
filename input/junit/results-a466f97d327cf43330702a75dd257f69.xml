@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="92.861" tests="9" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-14T16:39:22" tests="0" file="cypress\integration\home\blissBlogPage.spec.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Bliss Blog Page Tests" timestamp="2025-01-14T16:39:22" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="General Blog Page Validations" timestamp="2025-01-14T16:39:22" tests="6" time="91.829" failures="1">
+    <testcase name="Bliss Blog Page Tests General Blog Page Validations &quot;before each&quot; hook for &quot;Check General Elements Page&quot;" time="30.522" classname="&quot;before each&quot; hook for &quot;Check General Elements Page&quot;">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://www.blissapplications.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: ESOCKETTIMEDOUT
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Bliss Blog Page Tests`" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://www.blissapplications.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: ESOCKETTIMEDOUT
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Bliss Blog Page Tests`
+    at <unknown> (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:147682:82)
+    at visitFailedByErr (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:147074:12)
+    at <unknown> (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:147681:11)
+    at tryCatcher (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:18744:23)
+    at Promise._settlePromiseFromHandler (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:16679:31)
+    at Promise._settlePromise (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:16736:18)
+    at Promise._settlePromise0 (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:16781:10)
+    at Promise._settlePromises (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:16857:18)
+    at _drainQueueStep (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:13451:12)
+    at _drainQueue (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:13444:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:13460:5)
+    at Async.drainQueues (https://www.blissapplications.com/__cypress/runner/cypress_runner.js:13330:14)
+From Your Spec Code:
+    at BlissHomePage.goToHome (webpack:///./cypress/support/pages/home/blissHomePage.js:11:7)
+    at Context.eval (webpack:///./cypress/integration/home/blissBlogPage.spec.js:7:28)
+
+From Node.js Internals:
+  Error: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (<embedded>:1969:73407)
+      at Object.onceWrapper (node:events:641:28)
+      at ClientRequest.emit (node:events:527:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:771:9)
+      at Object.onceWrapper (node:events:641:28)
+      at TLSSocket.emit (node:events:539:35)
+      at Socket._onTimeout (node:net:516:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at process.processTimers (node:internal/timers:502:7)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Bliss Blog Page Tests ACC2" timestamp="2025-01-14T16:40:54" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="General Blog Page Validations" timestamp="2025-01-14T16:40:54" tests="3" time="0.843" failures="1">
+    <testcase name="Bliss Blog Page Tests ACC2 General Blog Page Validations &quot;before each&quot; hook for &quot;Check General Elements Page&quot;" time="0.241" classname="&quot;before each&quot; hook for &quot;Check General Elements Page&quot;">
+      <failure message="Element not Found
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Bliss Blog Page Tests ACC2`" type="Error"><![CDATA[Error: Element not Found
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Bliss Blog Page Tests ACC2`
+    at BlissHomePage.checkTestObject (webpack:///./cypress/support/pages/home/blissHomePage.js:30:12)
+    at Context.eval (webpack:///./cypress/integration/home/blissBlogPage.spec.js:40:28)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

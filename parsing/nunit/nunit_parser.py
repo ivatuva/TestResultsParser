@@ -1,11 +1,17 @@
 import xml.etree.ElementTree as ET
 from typing import List
 from .nunit_model import NunitTestRun, NUnitTestSuite, NUnitTestCase, Property, Failure, Assertion, Environment, Setting
+import logging
 
 class NUnitParser:
-    def parse(self, xml_content: str) -> NunitTestRun:
+    _logger: logging.Logger
+    
+    def __init__(self, logger: logging.Logger):
+        self._logger = logger
+        
+    def parse(self, xml_contents: List[str]) -> NunitTestRun:
         try:
-            root = ET.fromstring(xml_content)
+            root = ET.fromstring(xml_contents[0])
             return self._parse_test_run(root)
         except ET.ParseError as e:
             print(f"XML parsing error: {e}")

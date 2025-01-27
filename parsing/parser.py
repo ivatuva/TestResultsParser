@@ -1,12 +1,16 @@
 from .nunit import NUnitParser
+from .junit import JUnitParser 
 from typing import Any
 from utils import Tech
+import logging
 
 class Parser:
-    def __init__(self):
+    
+    def __init__(self, logger: logging.Logger):
+        
         self.parsers = {
-            Tech.NUNIT.value: NUnitParser(),
-            # Add other parsers here as they are implemented
+            Tech.NUNIT.value: NUnitParser(logger),
+            Tech.JUNIT.value: JUnitParser(logger),
         }
 
     def parse(self, xml_content: str, tech: str) -> Any:

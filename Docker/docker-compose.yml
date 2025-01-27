@@ -11,6 +11,11 @@ services:
       - MONGO_INITDB_PASSWORD=bliss
     volumes:
       - mongo-data:/data/db
+    networks:
+      - bliss
 
 volumes:
   mongo-data:
+networks:
+  bliss:
+    driver: bridge
